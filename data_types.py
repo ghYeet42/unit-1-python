@@ -65,6 +65,9 @@ string1 = ("1 2 3 4 5 6 7")
 
 struple = string1.split(" ")
 
+struple = tuple(string1.split(" "))
+
+
 print (string1)
 
 print (struple)
