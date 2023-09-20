@@ -22,7 +22,10 @@ print(height * age)
 
 # # # # exe. 4: Display "im going to break" in the console.
 
-print("im going to break")
+print("i\m going to break")
+
+print('That\'s great!')
+
 
 # # # # # exe. 5: Create a loist of strings called "fav_food", put 3 of your favorite food items inside of the list
 
@@ -45,8 +48,11 @@ print("Hello, " + their_name + "!")
 
 for food in fav_food:
     print(food)
+else:
+    print("bruh momento")
 
 # # # # # # # # # exe. 9: Create a while loop that will never run
 
 while 20 < 6:
     print("Lol, ok..")
+
