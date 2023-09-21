@@ -75,3 +75,13 @@ print (struple)
 #exp 5: I created a string variable and then another variable that converted the previous one to a tuple using the split function. Then I printed both.
 
 ########
+
+friuts2 = [23, 4, 5]
+
+print(friuts2[2]) #[-1] print 5
+print(friuts2[1]) # print 4
+print(friuts2[0:1]) #[:1][0] print 23
+print(friuts2[0:2]) #[1][:2] print 23 and 4
+print(friuts2[1:3]) # print 4 and 5
+
+print(str(friuts2) + str(friuts))
