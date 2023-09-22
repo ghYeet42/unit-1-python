@@ -76,12 +76,16 @@ print (struple)
 
 ########
 
-friuts2 = [23, 4, 5]
+friuts2 = [10, 20, 30, 40, 50, 60]
 
 print(friuts2[2]) #[-1] print 5
 print(friuts2[1]) # print 4
 print(friuts2[0:1]) #[:1][0] print 23
-print(friuts2[0:2]) #[1][:2] print 23 and 4
+print(friuts2[0:2]) #[1][:212] print 23 and 4
 print(friuts2[1:3]) # print 4 and 5
 
 print(str(friuts2) + str(friuts))
+
+print(friuts2[1:5])
+
+print(10 // 3)
