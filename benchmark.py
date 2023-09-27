@@ -55,4 +55,3 @@ else:
 
 while 20 < 6:
     print("Lol, ok..")
-

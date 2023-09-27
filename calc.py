@@ -28,7 +28,7 @@ if isinstance(opSelect, int) == False:
 # created a an if statement to check if what input choice was an integer using "isinstance", if so then the program proceeds based on the correlation of the number you input from 1 to 7
 
 
-if int(opSelect) == 1:
+if (opSelect) == 1:
         print(num1 + num2)
 elif int(opSelect) == 2:
     print("Your first input subtracted from your second input is: ")
@@ -63,7 +63,7 @@ elif int(opSelect) == 7:
     print("The remainder of your second input divided by your first input is: ")
     print(num2 % num1)
 else:
-        print("You cannot!") # if number isn't from 1 to 7, you should get this
+    print("You cannot!") # if number isn't from 1 to 7, you should get this
 
 
 #created a conditional that checks the input value of the opSelect input from 1 to 7 and performs the operation(s) corelated to said number. Number 1 is addition (the "+" sign), number 2 is subtraction, etc.
