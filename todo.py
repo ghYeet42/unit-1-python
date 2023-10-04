@@ -1,6 +1,9 @@
 tdolist = []
 
+
+
 #empty todo list set to being a variable called "tdolist" that is a list
+
 
 tdo = input("Do you want to add or delete a todo? TYPE d/a: ")
 
@@ -12,8 +15,8 @@ while True:
         real = input("Write what do you want to add: ") #variable made for adding todos
         print()
         tdolist.append(real) #the user's input is appended to their todo list (tdolist variable)
-        print()
-        print ("Your updated list is: " + str(tdolist))
+        for tdos in tdolist:
+            print ("Your updated list is: " + str(tdos)) #for loop to iterate through printing each item in the list to make the UX better for deletion
         print()
         tdo = input("Do you want to add or delete a todo? TYPE d/a: ")
         print()
@@ -23,7 +26,8 @@ while True:
         print()
         del tdolist[int(fake) - 1] #removes the specific item in place of the INDEX of the number that the user input. Subtract 1 from the number that the user inputs and you get the index of the item they wish to remove.
         print()
-        print ("Your updated list is: " + str(tdolist)) #prints updated list
+        for tdos in tdolist:
+            print ("Your updated list is: " + str(tdos)) #for loop to iterate through printing each item in the list to make the UX better for deletion
         print()
         tdo = input("Do you want to add or delete a todo? TYPE d/a: ")
         print()
