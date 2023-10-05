@@ -16,7 +16,7 @@ while True:
         print()
         tdolist.append(real) #the user's input is appended to their todo list (tdolist variable)
         for tdos in tdolist:
-            print ("Your updated list is: " + str(tdos)) #for loop to iterate through printing each item in the list to make the UX better for deletion
+            print ("Your updated list is: " + str(tdos)) #for loop to iterate through printing each item in the list to make the UX a little better for deletion
         print()
         tdo = input("Do you want to add or delete a todo? TYPE d/a: ")
         print()

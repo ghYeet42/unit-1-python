@@ -89,3 +89,4 @@ print(str(friuts2) + str(friuts))
 print(friuts2[1:5])
 
 print(10 // 3)
+
