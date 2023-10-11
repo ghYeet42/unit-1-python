@@ -90,3 +90,14 @@ else:
 #exp 5: I created a variable input and then a conditional that checks whether the input is a vowel and prints so. If not, what will be printed is that the letter is a consonant.
 
 #EXTRA CREDIT: Tell the user if they did not enter a valid letter
+
+
+car =    {
+     "brand": "Ford",
+     "model": "Mustang",
+      "year": 1964
+}
+
+
+for x in car:
+  print(x)

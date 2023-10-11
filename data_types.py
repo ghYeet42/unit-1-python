@@ -90,3 +90,7 @@ print(friuts2[1:5])
 
 print(10 // 3)
 
+from random import randint
+
+print(randint[1, 100])
+

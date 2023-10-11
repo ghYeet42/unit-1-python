@@ -47,7 +47,7 @@ mydict = {
 }
 
 for zaDict in ((mydict)):
-    print((zaDict))
+    print(mydict[zaDict])
 
 #created a dict and then a for loop to cycle through it
 
