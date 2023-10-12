@@ -40,7 +40,7 @@ factorial(5)
 # Write a function `is_even(num)` that takes a number as a parameter and returns `True` if the number is even, and `False` otherwise.
 
 def is_even(num):
-    if num / 2 == 0:
+    if num%2 == 0:
         print(True)
     else:
         print(False)
@@ -61,3 +61,4 @@ def calculate_area(length, width):
 calculate_area(3000, 20)
 
 #exp 5. Made calculate_area with "(length, width)" arg and a var that does length times width and then printed the var, then called upon the functions with arg "(3000, 20)"
+##
